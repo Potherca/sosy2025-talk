@@ -6,7 +6,7 @@ During the International Solid Symposium 2025 (SoSy2025), I presented a talk tit
 
 This repository contains the slides and notes from that talk.
 
-The talk is available online at https://slides.com/potherca/sosy-2025-datakluis/
+The talk is available online at https://pother.ca/sosy2025-talk/
 
 A PDF version is available at https://pother.ca/sosy2025-talk/slides.pdf
 
