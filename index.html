@@ -9,6 +9,13 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/slides.css">
+        <style>
+            /* Fix for backgrounds in PDF export */
+            .slide-background:not([style*="background-color"]) .slide-background-content {
+                background-color: #313538;
+                background-image: radial-gradient(circle farthest-corner at center, #555a5f 0%, #1c1e20 100%)
+            }
+        </style>
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
@@ -426,7 +433,7 @@
                     </div>
                 </section>
             </section>
-            <section data-background-image="./img/12100490.giphy.gif" data-background-size="contain" data-id="319ab8f804c459d7bea7f1dab9463e09">
+            <section data-pdf-background-image="./img/thatsallfolks.png" data-background-image="./img/12100490.giphy.gif" data-background-size="contain" data-id="319ab8f804c459d7bea7f1dab9463e09">
                 <div class="sl-block" data-block-id="8d4c7def08ec4f57ef674ad7fd26757c" data-block-type="text" data-name="text-5afc18" style="height: auto; width: 485px; left: 20px; top: 30px;">
                     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
                         <p style="text-align:right"><span style="color:rgb(128, 128, 128)">https://</span>linkedin.com/in/benpeachey/
